@@ -22,7 +22,8 @@
   },
   "announce": {
     "tag": "Nou",
-    "textHtml": "Contributori: alăturați-vă, Colibri Starter se construiește împreună."
+    "textHtml": "Contributori: alăturați-vă, Colibri Starter se construiește împreună.",
+    "byline": "Un proiect OpenColibri"
   },
   "nav": {
     "why": "De ce Colibri Starter",

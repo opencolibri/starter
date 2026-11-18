@@ -22,7 +22,8 @@
   },
   "announce": {
     "tag": "New",
-    "textHtml": "Contributors: join us, Colibri Starter is built together."
+    "textHtml": "Contributors: join us, Colibri Starter is built together.",
+    "byline": "A project by OpenColibri"
   },
   "nav": {
     "why": "Why Colibri Starter",
