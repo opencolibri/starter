@@ -32,7 +32,7 @@ export default defineConfig({
     monorepoDocs({ source: docsDir, repository }),
     starlight({
       title: 'Colibri Starter',
-      logo: { src: './src/assets/logo.png' },
+      logo: { light: './src/assets/logo-light.svg', dark: './src/assets/logo-dark.svg' },
       favicon: '/favicon.ico',
       description: 'Castor packages to build, configure and operate a Sylius application.',
       customCss: ['./src/styles/docs.css'],
