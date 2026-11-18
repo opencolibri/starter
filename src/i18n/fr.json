@@ -22,7 +22,8 @@
   },
   "announce": {
     "tag": "Nouveau",
-    "textHtml": "Contributeurs : rejoignez-nous, Colibri Starter se construit ensemble."
+    "textHtml": "Contributeurs : rejoignez-nous, Colibri Starter se construit ensemble.",
+    "byline": "Un projet OpenColibri"
   },
   "nav": {
     "why": "Pourquoi Colibri Starter",

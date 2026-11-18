@@ -22,7 +22,8 @@
   },
   "announce": {
     "tag": "Neu",
-    "textHtml": "Mitwirkende: Machen Sie mit, Colibri Starter entsteht gemeinsam."
+    "textHtml": "Mitwirkende: Machen Sie mit, Colibri Starter entsteht gemeinsam.",
+    "byline": "Ein Projekt von OpenColibri"
   },
   "nav": {
     "why": "Warum Colibri Starter",

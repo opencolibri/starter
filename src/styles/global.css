@@ -130,8 +130,17 @@ nav {
 
 /* ---- Announcement banner (temporary) ---- */
 .announce { background: var(--violet); color: var(--white); font-size: .9rem; line-height: 1.45; }
-.announce-in { display: flex; align-items: center; justify-content: center; gap: .9rem; padding-block: .7rem; }
+.announce-in { display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: .9rem; padding-block: .7rem; }
+.announce-msg { grid-column: 2; display: flex; align-items: center; gap: .9rem; }
 .announce p { margin: 0; }
+.announce-org { grid-column: 3; justify-self: end; color: var(--white); font-weight: 500; white-space: nowrap;
+    text-decoration: underline; text-decoration-color: rgb(255 255 255 / .5); text-underline-offset: .2em; }
+.announce-org:hover { text-decoration-color: var(--white); }
+.announce-org:focus-visible { outline: 2px solid var(--white); outline-offset: 2px; border-radius: 2px; }
+@media (max-width: 900px) {
+    .announce-in { display: flex; justify-content: center; }
+    .announce-org { display: none; }
+}
 .announce-tag { font-size: .66rem; font-weight: 600; letter-spacing: .14em; text-transform: uppercase;
     background: rgb(255 255 255 / .2); padding: .22rem .65rem; border-radius: 100px; white-space: nowrap; flex-shrink: 0; }
 
