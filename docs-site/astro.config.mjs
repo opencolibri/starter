@@ -59,6 +59,7 @@ export default defineConfig({
         { label: 'E-commerce import', items: [{ autogenerate: { directory: 'import' } }] },
         { label: 'Extending', items: [{ autogenerate: { directory: 'extending' } }] },
         { label: 'Storefront slots', items: [{ autogenerate: { directory: 'storefront' } }] },
+        { label: 'Sales kit', items: [{ autogenerate: { directory: 'sales-kit' } }] },
         { label: 'Contributing', items: [{ autogenerate: { directory: 'contributing' } }] },
         { label: 'Colibri Starter website', link: 'https://starter.opencolibri.org/', attrs: { target: '_blank' } },
       ],
