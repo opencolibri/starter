@@ -29,6 +29,7 @@
     "why": "De ce Colibri Starter",
     "sovereignty": "Independență",
     "developers": "Dezvoltatori",
+    "salesKit": "Kit de vânzări",
     "github": "GitHub ↗",
     "menu": "Meniu"
   },
@@ -121,6 +122,17 @@
         "p": "Partenerii, furnizorii de soluții și freelancerii țin proiectul în viață."
       }
     ]
+  },
+  "salesKit": {
+    "tag": "Pentru agenții și integratori",
+    "title": "Arată fiecărui client potențial propriul magazin",
+    "intro": "Kitul de vânzări rulează magazinele tale demo într-o singură aplicație Sylius, fiecare pe propriul subdomeniu. Echipa ta de vânzări le creează dintr-o interfață de administrare, fără niciun dezvoltator.",
+    "items": [
+      "Un magazin pentru fiecare client potențial în câteva clicuri, dintr-un catalog gata făcut sau unul creat cu AI pornind de la propriul său site",
+      "Tema care i se potrivește, cu logo-ul și imaginile sale",
+      "Gata de partajat: un cont de client, un back-office care vede doar acest magazin și un mod privat la nevoie"
+    ],
+    "cta": "Descoperă kitul de vânzări ↗"
   },
   "supporters": {
     "label": "Ne susțin",
