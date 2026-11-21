@@ -29,6 +29,7 @@
     "why": "Warum Colibri Starter",
     "sovereignty": "Souveränität",
     "developers": "Entwickler",
+    "salesKit": "Sales Kit",
     "github": "GitHub ↗",
     "menu": "Menü"
   },
@@ -121,6 +122,17 @@
         "p": "Partner, Lösungsanbieter und Freelancer halten das Projekt lebendig."
       }
     ]
+  },
+  "salesKit": {
+    "tag": "Für Agenturen und Integratoren",
+    "title": "Zeigen Sie jedem Interessenten seinen eigenen Shop",
+    "intro": "Das Sales Kit betreibt Ihre Demo-Shops in einer einzigen Sylius-Anwendung, jeden unter seiner eigenen Subdomain. Ihr Vertriebsteam erstellt sie über eine Admin-Oberfläche, ganz ohne Entwickler.",
+    "items": [
+      "Ein Shop pro Interessent mit wenigen Klicks, aus einem fertigen Katalog oder einem Katalog, den die KI aus seiner eigenen Website erstellt",
+      "Das passende Theme, mit seinem Logo und seinen Bannerbildern",
+      "Bereit zum Teilen: ein Kundenkonto, ein Backoffice, das nur diesen Shop sieht, und bei Bedarf ein privater Modus"
+    ],
+    "cta": "Das Sales Kit entdecken ↗"
   },
   "supporters": {
     "label": "Sie unterstützen Colibri Starter",

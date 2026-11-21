@@ -29,6 +29,7 @@
     "why": "Pourquoi Colibri Starter",
     "sovereignty": "Souveraineté",
     "developers": "Développeurs",
+    "salesKit": "Kit commercial",
     "github": "GitHub ↗",
     "menu": "Menu"
   },
@@ -104,7 +105,7 @@
       { "type": "dim", "text": "installe · configure · migre · build" },
       { "type": "ok", "text": "2 fonctionnalités activées" },
       { "type": "cmd", "text": "castor sylius:remove cms" },
-      { "type": "dim", "text": "et l’annule, proprement" },
+      { "type": "dim", "text": "et l'annule, proprement" },
       { "type": "ok", "text": "fonctionnalité retirée" },
       { "type": "cmd", "text": "castor sylius:theme:setup canvas" },
       { "type": "dim", "text": "change tout le thème de la boutique" },
@@ -121,6 +122,17 @@
         "p": "Des partenaires, des éditeurs de solutions et des indépendants font vivre le projet."
       }
     ]
+  },
+  "salesKit": {
+    "tag": "Pour les agences et les intégrateurs",
+    "title": "Montrez à chaque prospect sa propre boutique",
+    "intro": "Le kit commercial fait tourner vos boutiques de démonstration dans une seule application Sylius, chacune sur son sous-domaine. Votre équipe commerciale les crée depuis une interface d'administration, sans développeur.",
+    "items": [
+      "Une boutique par prospect en quelques clics, depuis un catalogue prêt à l'emploi ou un catalogue créé par l'IA à partir de son propre site",
+      "Le thème qui lui ressemble, avec son logo et ses visuels",
+      "Prête à partager : un compte client, un back-office qui ne voit que cette boutique, et un mode privé si besoin"
+    ],
+    "cta": "Découvrir le kit commercial ↗"
   },
   "supporters": {
     "label": "Ils soutiennent Colibri Starter",

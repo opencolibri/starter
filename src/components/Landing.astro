@@ -12,6 +12,7 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const asset = (path: string) => `${base}/${path.replace(/^\//, '')}`;
 const repo = 'https://github.com/opencolibri/colibri-starter';
 const docs = 'https://starter.opencolibri.org/docs/';
+const salesKitDocs = `${docs}sales-kit/`;
 const opencolibri = 'https://opencolibri.org/';
 ---
 
@@ -31,6 +32,7 @@ const opencolibri = 'https://opencolibri.org/';
     <div class="nav-links">
       <a href="#pourquoi">{t.nav.why}</a>
       <a href="#souverainete">{t.nav.sovereignty}</a>
+      <a href="#sales-kit">{t.nav.salesKit}</a>
       <a href="#developpeurs">{t.nav.developers}</a>
       <a href={repo} target="_blank" rel="noopener" class="btn btn-ghost nav-github">{t.nav.github}</a>
       <a href={docs} target="_blank" rel="noopener" class="btn btn-primary nav-cta">{t.found.ctaDoc}</a>
@@ -43,6 +45,7 @@ const opencolibri = 'https://opencolibri.org/';
     <div class="wrap">
       <a href="#pourquoi">{t.nav.why}</a>
       <a href="#souverainete">{t.nav.sovereignty}</a>
+      <a href="#sales-kit">{t.nav.salesKit}</a>
       <a href="#developpeurs">{t.nav.developers}</a>
       <a href={repo} target="_blank" rel="noopener">{t.nav.github}</a>
       <a href={docs} target="_blank" rel="noopener" class="btn btn-primary">{t.found.ctaDoc}</a>
@@ -185,6 +188,28 @@ const opencolibri = 'https://opencolibri.org/';
   </section>
 )}
 
+<section class="kit-sec" id="sales-kit">
+  <div class="wrap kit-grid">
+    <div class="kit-copy">
+      <div class="section-head">
+        <span class="eyebrow">{t.salesKit.tag}</span>
+        <h2>{t.salesKit.title}</h2>
+        <p class="intro">{t.salesKit.intro}</p>
+      </div>
+      <ul class="plist kit-list">
+        {t.salesKit.items.map((item) => (
+          <li><span class="mark">✓</span><span class="t">{item}</span></li>
+        ))}
+      </ul>
+      <a href={salesKitDocs} target="_blank" rel="noopener" class="btn btn-primary">{t.salesKit.cta}</a>
+    </div>
+
+    <a href={salesKitDocs} target="_blank" rel="noopener" class="kit-visual" tabindex="-1" aria-hidden="true">
+      <img src={asset('images/sales-kit-datasets.webp')} alt="" width="1440" height="900" loading="lazy" />
+    </a>
+  </div>
+</section>
+
 <section class="found sec-dark" id="developpeurs">
   <div class="wrap">
     <div class="section-head">
@@ -241,6 +266,7 @@ const opencolibri = 'https://opencolibri.org/';
           <h4>{t.footer.product}</h4>
           <a href="#pourquoi">{t.nav.why}</a>
           <a href="#souverainete">{t.nav.sovereignty}</a>
+          <a href="#sales-kit">{t.nav.salesKit}</a>
           <a href="#developpeurs">{t.nav.developers}</a>
           <a href={opencolibri} target="_blank" rel="noopener">OpenColibri ↗</a>
         </div>

@@ -29,6 +29,7 @@
     "why": "¿Por qué Colibri Starter?",
     "sovereignty": "Soberanía",
     "developers": "Desarrolladores",
+    "salesKit": "Kit comercial",
     "github": "GitHub ↗",
     "menu": "Menú"
   },
@@ -121,6 +122,17 @@
         "p": "Socios, proveedores de soluciones y profesionales independientes mantienen vivo el proyecto."
       }
     ]
+  },
+  "salesKit": {
+    "tag": "Para agencias e integradores",
+    "title": "Muestra a cada cliente potencial su propia tienda",
+    "intro": "El kit comercial ejecuta tus tiendas de demostración en una sola aplicación Sylius, cada una en su propio subdominio. Tu equipo comercial las crea desde un panel de administración, sin desarrolladores.",
+    "items": [
+      "Una tienda por cliente potencial en pocos clics, a partir de un catálogo listo para usar o de uno creado con IA desde su propio sitio web",
+      "El tema que mejor le encaja, con su logotipo y sus imágenes",
+      "Lista para compartir: una cuenta de cliente, un back-office que solo ve esa tienda y un modo privado si hace falta"
+    ],
+    "cta": "Descubrir el kit comercial ↗"
   },
   "supporters": {
     "label": "Apoyan Colibri Starter",
