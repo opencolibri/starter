@@ -30,6 +30,10 @@ export default defineConfig({
     '/import/ai-catalog': `${base}datasets/build/#from-a-description`,
     '/import/existing-website': `${base}datasets/build/#from-an-existing-website`,
     '/import/extending': `${base}datasets/extending/`,
+    // The pages of the former "Extending" section, moved to the section they extend.
+    '/extending': `${base}commands/custom-plugins/`,
+    '/extending/toolbox': `${base}getting-started/toolbox/`,
+    '/extending/tasks': `${base}commands/custom-tasks/`,
   },
   markdown: {
     processor: unified({
@@ -69,7 +73,6 @@ export default defineConfig({
         { label: 'Datasets', items: [{ autogenerate: { directory: 'datasets' } }] },
         { label: 'Storefront slots', items: [{ autogenerate: { directory: 'storefront' } }] },
         { label: 'Sales kit', items: [{ autogenerate: { directory: 'sales-kit' } }] },
-        { label: 'Extending', items: [{ autogenerate: { directory: 'extending' } }] },
         { label: 'Contributing', items: [{ autogenerate: { directory: 'contributing' } }] },
         { label: 'Colibri Starter website', link: 'https://starter.opencolibri.org/', attrs: { target: '_blank' } },
       ],
