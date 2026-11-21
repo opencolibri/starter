@@ -21,6 +21,16 @@ export default defineConfig({
   site,
   base,
   outDir: 'dist',
+  // The pages of the former "E-commerce import" section (opencolibri/starter-import), split into the datasets and
+  // the sales kit pages.
+  redirects: {
+    '/import': `${base}datasets/`,
+    '/import/datasets': `${base}datasets/`,
+    '/import/fixtures': `${base}datasets/#load-a-dataset`,
+    '/import/ai-catalog': `${base}datasets/build/#from-a-description`,
+    '/import/existing-website': `${base}datasets/build/#from-an-existing-website`,
+    '/import/extending': `${base}datasets/extending/`,
+  },
   markdown: {
     processor: unified({
       rehypePlugins: [
@@ -56,7 +66,7 @@ export default defineConfig({
         { label: 'Getting started', items: [{ autogenerate: { directory: 'getting-started' } }] },
         { label: 'Commands', items: [{ autogenerate: { directory: 'commands' } }] },
         { label: 'Themes', items: themesSidebar(resolve(fileURLToPath(new URL('.', import.meta.url)), docsDir)) },
-        { label: 'E-commerce import', items: [{ autogenerate: { directory: 'import' } }] },
+        { label: 'Datasets', items: [{ autogenerate: { directory: 'datasets' } }] },
         { label: 'Extending', items: [{ autogenerate: { directory: 'extending' } }] },
         { label: 'Storefront slots', items: [{ autogenerate: { directory: 'storefront' } }] },
         { label: 'Sales kit', items: [{ autogenerate: { directory: 'sales-kit' } }] },
