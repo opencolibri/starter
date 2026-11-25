@@ -72,6 +72,7 @@ export default defineConfig({
         { label: 'Themes', items: themesSidebar(resolve(fileURLToPath(new URL('.', import.meta.url)), docsDir)) },
         { label: 'Datasets', items: [{ autogenerate: { directory: 'datasets' } }] },
         { label: 'Storefront slots', items: [{ autogenerate: { directory: 'storefront' } }] },
+        { label: 'Dev-kit', items: [{ autogenerate: { directory: 'dev-kit' } }] },
         { label: 'Sales kit', items: [{ autogenerate: { directory: 'sales-kit' } }] },
         { label: 'Contributing', items: [{ autogenerate: { directory: 'contributing' } }] },
         { label: 'Colibri Starter website', link: 'https://starter.opencolibri.org/', attrs: { target: '_blank' } },
