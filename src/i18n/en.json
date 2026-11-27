@@ -30,6 +30,7 @@
     "sovereignty": "Sovereignty",
     "developers": "Developers",
     "salesKit": "Sales kit",
+    "devKit": "Dev-kit",
     "github": "GitHub ↗",
     "menu": "Menu"
   },
@@ -133,6 +134,19 @@
       "Ready to share: a customer account, a back office that only sees this shop, and a private mode if needed"
     ],
     "cta": "Discover the sales kit ↗"
+  },
+  "devKit": {
+    "tag": "For developers",
+    "title": "Build your shop little by little",
+    "intro": "The dev-kit grows your local Sylius shop from a single file, starter.yaml. It compares what you want with what runs, and changes only what differs.",
+    "items": [
+      "The catalog, theme, languages, currencies and plugins of the shop, described in one file",
+      "The plan of each change before it runs, with how long each step takes",
+      "An admin with a history, or the terminal with castor dev-kit:tui"
+    ],
+    "cta": "Discover the dev-kit ↗",
+    "altAdmin": "The storefront page of the dev-kit admin, with the plan of a header change",
+    "altTerminal": "The overview of the dev-kit in the terminal, with the plan next to it"
   },
   "supporters": {
     "label": "They support Colibri Starter",

@@ -30,6 +30,7 @@
     "sovereignty": "Independență",
     "developers": "Dezvoltatori",
     "salesKit": "Kit de vânzări",
+    "devKit": "Dev-kit",
     "github": "GitHub ↗",
     "menu": "Meniu"
   },
@@ -133,6 +134,19 @@
       "Gata de partajat: un cont de client, un back-office care vede doar acest magazin și un mod privat la nevoie"
     ],
     "cta": "Descoperă kitul de vânzări ↗"
+  },
+  "devKit": {
+    "tag": "Pentru dezvoltatori",
+    "title": "Construiește-ți magazinul pas cu pas",
+    "intro": "Dev-kit-ul face să evolueze magazinul tău Sylius local pornind de la un singur fișier, starter.yaml. Compară ce vrei cu ce rulează și schimbă doar ce diferă.",
+    "items": [
+      "Catalogul, tema, limbile, monedele și plugin-urile magazinului, descrise într-un singur fișier",
+      "Planul fiecărei schimbări înainte de a o aplica, cu durata fiecărui pas",
+      "O interfață de administrare cu istoric, sau terminalul cu castor dev-kit:tui"
+    ],
+    "cta": "Descoperă dev-kit-ul ↗",
+    "altAdmin": "Pagina de vitrină a administrării dev-kit, cu planul unei schimbări de antet",
+    "altTerminal": "Vederea de ansamblu a dev-kit-ului în terminal, cu planul alături"
   },
   "supporters": {
     "label": "Ne susțin",

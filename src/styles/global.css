@@ -238,6 +238,15 @@ nav {
 .kit-visual:hover { transform: translateY(-3px); }
 .kit-visual img { width: 100%; height: auto; }
 
+/* ---- Dev-kit: the admin, with the terminal over its corner ---- */
+.dk-grid { grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); }
+@media (max-width: 940px) { .dk-grid { grid-template-columns: 1fr; } .dk-grid .kit-copy { order: -1; } }
+.dk-visual { display: block; position: relative; padding: 0 0 18% 0; transition: transform .3s var(--ease); }
+.dk-visual:hover { transform: translateY(-3px); }
+.dk-visual img { display: block; height: auto; border-radius: 14px; box-shadow: 0 30px 80px -45px rgb(var(--shadow-rgb) / .55); }
+.dk-admin { width: 86%; border: 1px solid var(--line); background: var(--white); }
+.dk-term { position: absolute; right: 0; bottom: 0; width: 70%; border: 1px solid #2c2b45; background: #1a1a2e; }
+
 .found .section-head h2 { max-width: 22ch; }
 .found .grid { display: grid; grid-template-columns: 1.02fr .98fr; gap: clamp(2rem, 5vw, 4.5rem); align-items: start; margin-top: clamp(2.5rem, 5vw, 3.5rem); }
 @media (max-width: 940px) { .found .grid { grid-template-columns: 1fr; } }

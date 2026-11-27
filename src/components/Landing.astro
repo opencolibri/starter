@@ -13,6 +13,7 @@ const asset = (path: string) => `${base}/${path.replace(/^\//, '')}`;
 const repo = 'https://github.com/opencolibri/colibri-starter';
 const docs = 'https://starter.opencolibri.org/docs/';
 const salesKitDocs = `${docs}sales-kit/`;
+const devKitDocs = `${docs}dev-kit/`;
 const opencolibri = 'https://opencolibri.org/';
 ---
 
@@ -33,6 +34,7 @@ const opencolibri = 'https://opencolibri.org/';
       <a href="#pourquoi">{t.nav.why}</a>
       <a href="#souverainete">{t.nav.sovereignty}</a>
       <a href="#sales-kit">{t.nav.salesKit}</a>
+      <a href="#dev-kit">{t.nav.devKit}</a>
       <a href="#developpeurs">{t.nav.developers}</a>
       <a href={repo} target="_blank" rel="noopener" class="btn btn-ghost nav-github">{t.nav.github}</a>
       <a href={docs} target="_blank" rel="noopener" class="btn btn-primary nav-cta">{t.found.ctaDoc}</a>
@@ -46,6 +48,7 @@ const opencolibri = 'https://opencolibri.org/';
       <a href="#pourquoi">{t.nav.why}</a>
       <a href="#souverainete">{t.nav.sovereignty}</a>
       <a href="#sales-kit">{t.nav.salesKit}</a>
+      <a href="#dev-kit">{t.nav.devKit}</a>
       <a href="#developpeurs">{t.nav.developers}</a>
       <a href={repo} target="_blank" rel="noopener">{t.nav.github}</a>
       <a href={docs} target="_blank" rel="noopener" class="btn btn-primary">{t.found.ctaDoc}</a>
@@ -210,6 +213,29 @@ const opencolibri = 'https://opencolibri.org/';
   </div>
 </section>
 
+<section class="kit-sec dk-sec sec-muted" id="dev-kit">
+  <div class="wrap kit-grid dk-grid">
+    <a href={devKitDocs} target="_blank" rel="noopener" class="dk-visual" tabindex="-1">
+      <img class="dk-admin" src={asset('images/dev-kit-storefront.webp')} alt={t.devKit.altAdmin} width="1440" height="900" loading="lazy" />
+      <img class="dk-term" src={asset('images/dev-kit-tui-overview.webp')} alt={t.devKit.altTerminal} width="1600" height="900" loading="lazy" />
+    </a>
+
+    <div class="kit-copy">
+      <div class="section-head">
+        <span class="eyebrow">{t.devKit.tag}</span>
+        <h2>{t.devKit.title}</h2>
+        <p class="intro">{t.devKit.intro}</p>
+      </div>
+      <ul class="plist kit-list">
+        {t.devKit.items.map((item) => (
+          <li><span class="mark">✓</span><span class="t">{item}</span></li>
+        ))}
+      </ul>
+      <a href={devKitDocs} target="_blank" rel="noopener" class="btn btn-primary">{t.devKit.cta}</a>
+    </div>
+  </div>
+</section>
+
 <section class="found sec-dark" id="developpeurs">
   <div class="wrap">
     <div class="section-head">
@@ -267,6 +293,7 @@ const opencolibri = 'https://opencolibri.org/';
           <a href="#pourquoi">{t.nav.why}</a>
           <a href="#souverainete">{t.nav.sovereignty}</a>
           <a href="#sales-kit">{t.nav.salesKit}</a>
+          <a href="#dev-kit">{t.nav.devKit}</a>
           <a href="#developpeurs">{t.nav.developers}</a>
           <a href={opencolibri} target="_blank" rel="noopener">OpenColibri ↗</a>
         </div>
